@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
   <title>Embarq</title>
@@ -10,7 +10,7 @@
 	<meta name="generator" content="Hugo 0.36.1" />
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="https://embarq.github.io/css/main.css">
+	
 
 	<!--Favicon-->
 	<link rel="shortcut icon" href="https://embarq.github.io/favicon.ico" type="image/x-icon">
@@ -20,33 +20,29 @@
 		<link href="https://embarq.github.io/index.xml" rel="feed" type="application/rss+xml" title="Embarq" />
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
 </head>
 
-	<body>
-		<header class="site-header">
+<body>
+  <header class="site-header">
 	<div class="branding">
-		<a href="https://embarq.github.io">
+		<a href="https://embarq.github.io/">
 		<img class="avatar" src="https://www.gravatar.com/avatar/67135a14d3ac4f1369633dd006d6efec?s=100&d=identicon" alt=""/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://embarq.github.io">Embarq</a>
+			<a href="https://embarq.github.io/">Embarq</a>
 		</h1>
 	</div>
 	<nav class="site-nav">
 		<ul>
 			<li><a href="/about/"> About </a></li>
 
-			<li class="icon">
-	<a href="https://embarq.github.io" title="">
-		<i class="fa fa-fw fa-home"></i>
-	</a>
-</li>
+			
 
 
 
 <li class="icon">
-	<a href="mailto:hello@example.com" title="Email">
+	<a href="mailto:embarq.dev@gmail.com" title="Email">
 		<i class="fa fa-fw fa-envelope"></i>
 	</a>
 </li>
@@ -62,7 +58,7 @@
 
 
 <li class="icon">
-	<a href="https://github.com/digitalcraftsman/hugo-type-theme" title="GitHub">
+	<a href="https://github.com/embarq" title="GitHub">
 		<i class="fa fa-fw fa-github"></i>
 	</a>
 </li>
@@ -100,12 +96,12 @@
 </header>
 
 
-		<div class="content">
-			<div class="home">
+  <div class="content">
+    <div class="home">
 
-				
+      
 
-				<div class="posts">
+      <div class="posts">
 	
 	<div class="post-teaser">
 		<header>
@@ -119,9 +115,9 @@
 
 	
 		&middot; Tags:
-			<a href="https://embarq.github.iotags/hugo">hugo</a>
-			, <a href="https://embarq.github.iotags/jekyll">jekyll</a>
-			, <a href="https://embarq.github.iotags/migration">migration</a>
+			<a href="https://embarq.github.io/tags/hugo">hugo</a>
+			, <a href="https://embarq.github.io/tags/jekyll">jekyll</a>
+			, <a href="https://embarq.github.io/tags/migration">migration</a>
 			
 </p>
 
@@ -177,7 +173,7 @@ This document is a brief primer on using go templates.
 
 	
 		&middot; Tags:
-			<a href="https://embarq.github.iotags/hugo">Hugo</a>
+			<a href="https://embarq.github.io/tags/hugo">Hugo</a>
 			
 </p>
 
@@ -228,18 +224,35 @@ We&rsquo;ll start with creating a new site with a very basic template.
 	</div>
 </div>
 
-				<div class="pagination">
+      <div class="pagination">
 	
 </div>
 
 
-				<footer class="site-footer">
+      <footer class="site-footer">
 	<p class="text">&copy; 2018 - Released under the MIT license<br>Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p>
 </footer>
 
 
 
-			</div>
-		</div>
-	</body>
+    </div>
+  </div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        console.log('loaded')
+
+        
+        const fontAwesomeLink = document.createElement('link');
+        
+        fontAwesomeLink.rel = 'stylesheet';
+        
+        fontAwesomeLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+        
+        document.head.appendChild(fontAwesomeLink);
+      })
+    })();
+  </script>
+</body>
 </html>
