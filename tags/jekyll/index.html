@@ -1,235 +1,29 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <title>Jekyll&middot; Embarq</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Igor Lee">
-	<meta name="description" content="Embarq&#39;s home page">
-	<meta name="keywords" content="javascript,web-development">
-	<meta name="generator" content="Hugo 0.36.1">
-
-	<!-- CSS -->
-	
-
-	<!--Favicon-->
-	<link rel="shortcut icon" href="https://embarq.github.io/favicon.ico" type="image/x-icon">
-
-	<!-- RSS -->
-	<link href="https://embarq.github.io/tags/jekyll/index.xml" rel="alternate" type="application/rss+xml" title="Embarq">
-		<link href="https://embarq.github.io/tags/jekyll/index.xml" rel="feed" type="application/rss+xml" title="Embarq">
-
-	<!-- Font Awesome -->
-	
-</head>
-
-<body>
-	<header class="site-header">
-	<div class="branding">
-		<a href="https://embarq.github.io/">
-		<img class="avatar" src="https://www.gravatar.com/avatar/67135a14d3ac4f1369633dd006d6efec?s=100&d=identicon" alt="">
-		</a>
-		<h1 class="site-title">
-			<a href="https://embarq.github.io/">Embarq</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
-			<li><a href="/about/"> About </a></li>
-
-			
-
-
-
-<li class="icon">
-	<a href="mailto:embarq.dev@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/embarq" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		</ul>
-	</nav>
-</header>
-
-
-	<div class="content">
-	<div class="posts">
-	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://embarq.github.io/post/migrate-from-jekyll/">
-				Migrate from Jekyll
-			</a>
-			</h1>
-			<p class="meta">
-	October 10, 2015 &middot; 4 minute read
-
-	
-		&middot; Tags:
-			<a href="https://embarq.github.io/tags/hugo">hugo</a>
-			, <a href="https://embarq.github.io/tags/jekyll">jekyll</a>
-			, <a href="https://embarq.github.io/tags/migration">migration</a>
-			
-</p>
-
-		</header>
-
-		<div class="excerpt">
-			<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
-
-<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
-With Jekyll, something that looked like</p>
-
-<p></p>
-
-			<br>
-			<a class="button" href="https://embarq.github.io/post/migrate-from-jekyll/">
-				Continue reading
-			</a>
-		</div>
-	</div><div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://embarq.github.io/post/go-is-for-lovers/">
-				Go is for lovers
-			</a>
-			</h1>
-			<p class="meta">
-	September 17, 2015 &middot; 7 minute read
-
-	
-		
-</p>
-
-		</header>
-
-		<div class="excerpt">
-			Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.
-
-			<br>
-			<a class="button" href="https://embarq.github.io/post/go-is-for-lovers/">
-				Continue reading
-			</a>
-		</div>
-	</div><div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://embarq.github.io/post/hugo-is-for-lovers/">
-				Hugo is for lovers
-			</a>
-			</h1>
-			<p class="meta">
-	August 3, 2015 &middot; 2 minute read
-
-	
-		&middot; Tags:
-			<a href="https://embarq.github.io/tags/hugo">Hugo</a>
-			
-</p>
-
-		</header>
-
-		<div class="excerpt">
-			<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-
-<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
-appropriate version for your os and architecture.</p>
-
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-
-<p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p>
-
-<p></p>
-
-			<br>
-			<a class="button" href="https://embarq.github.io/post/hugo-is-for-lovers/">
-				Continue reading
-			</a>
-		</div>
-	</div><div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://embarq.github.io/post/creating-a-new-theme/">
-				Creating a new theme
-			</a>
-			</h1>
-			<p class="meta">
-	June 24, 2015 &middot; 34 minute read
-
-	
-		
-</p>
-
-		</header>
-
-		<div class="excerpt">
-			Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.
-
-			<br>
-			<a class="button" href="https://embarq.github.io/post/creating-a-new-theme/">
-				Continue reading
-			</a>
-		</div>
-	</div>
-</div>
-
-	<div class="pagination">
-	
-</div>
-
-	</div>
-
-	<footer class="site-footer">
-	<p class="text">&copy; 2018 - Released under the MIT license<br>Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p>
-</footer>
-
-
-</body>
-</html>
+<!DOCTYPE html><html lang="en-us"><head><title>Jekyll&middot; Embarq</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Igor Lee"><meta name="description" content="Embarq&#39;s home page"><meta name="keywords" content="javascript,web-development"><meta name="generator" content="Hugo 0.36.1"><!-- CSS --><!--Favicon--><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><!-- RSS --><link href="/tags/jekyll/index.xml" rel="alternate" type="application/rss+xml" title="Embarq"><link href="/tags/jekyll/index.xml" rel="feed" type="application/rss+xml" title="Embarq"><style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,nav{display:block}a{background-color:transparent}h1{font-size:2em;margin:.67em 0}img{border:0}svg:not(:root){overflow:hidden}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJB9cme_xc.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJB9cme_xc.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJB9cme_xc.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJB9cme_xc.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJB9cme_xc.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJB9cme_xc.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDJB9cme.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdh18S0xR41YDw.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdo18S0xR41YDw.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdg18S0xR41YDw.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdv18S0xR41YDw.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdj18S0xR41YDw.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18S0xR41YDw.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18S0xR41.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhdu3cOWxy40.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxdu3cOWxy40.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxdu3cOWxy40.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBdu3cOWxy40.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBdu3cOWxy40.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}*{margin:0;padding:0;box-sizing:border-box}html{background:#fff}body{color:#383838;font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;font-size:1.25em;word-wrap:break-word}h1{font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;line-height:1.3;margin:.67em 0}h1 a{color:#383838}h1{font-size:2.5em}ul{line-height:1.5;margin-bottom:1em}ul{list-style-position:inside}a{color:#f55;text-decoration:none}img{max-width:100%}.site-header{padding:5% 20%}@media (max-width:1000px){.site-header{padding:7.5% 12.5%}}@media (max-width:576px){.site-header{padding:5%}}.icon-svg svg{width:1em;height:100%}.icon-svg svg path{fill:#383838}header h1{margin:0}.site-header{padding-bottom:3%;padding-top:3%;background:#fff;border-bottom:1px solid rgba(0,0,0,.1);display:inline-block;float:left;width:100%}.site-header a{color:#383838}.site-header .avatar{height:2em;width:2em;float:left;margin-top:-3px;border-radius:.2em;margin-right:1em}.site-header .site-title{float:left;font-weight:700;font-size:1em;line-height:1.5}.site-header .site-nav ul{margin:0;padding:0;list-style:none;line-height:1.5;float:right;text-align:right}.site-header .site-nav li{display:inline;float:left;margin-right:1em}.site-header .site-nav a{color:#383838}@media (max-width:576px){.site-header .site-nav ul{display:inline-block;float:left;padding-top:5%;text-align:left;width:100%}}</style></head><body><header class="site-header"><div class="branding"><a href="/"><img class="avatar" src="https://www.gravatar.com/avatar/67135a14d3ac4f1369633dd006d6efec?s=100&d=identicon" alt=""></a><h1 class="site-title"><a href="/">Embarq</a></h1></div><nav class="site-nav"><ul><li><a href="/about/">About</a></li><li class="icon"><a href="mailto:embarq.dev@gmail.com" title="Email" class="icon-svg"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 490.2 490.2" style="enable-background:new 0 0 490.2 490.2;" xml:space="preserve"><g><path d="M420.95,61.8C376.25,20.6,320.65,0,254.25,0c-69.8,0-129.3,23.4-178.4,70.3s-73.7,105.2-73.7,175
+		c0,66.9,23.4,124.4,70.1,172.6c46.9,48.2,109.9,72.3,189.2,72.3c47.8,0,94.7-9.8,140.7-29.5c15-6.4,22.3-23.6,16.2-38.7l0,0
+		c-6.3-15.6-24.1-22.8-39.6-16.2c-40,17.2-79.2,25.8-117.4,25.8c-60.8,0-107.9-18.5-141.3-55.6c-33.3-37-50-80.5-50-130.4
+		c0-54.2,17.9-99.4,53.6-135.7c35.6-36.2,79.5-54.4,131.5-54.4c47.9,0,88.4,14.9,121.4,44.7s49.5,67.3,49.5,112.5
+		c0,30.9-7.6,56.7-22.7,77.2c-15.1,20.6-30.8,30.8-47.1,30.8c-8.8,0-13.2-4.7-13.2-14.2c0-7.7,0.6-16.7,1.7-27.1l18.6-152.1h-64
+		l-4.1,14.9c-16.3-13.3-34.2-20-53.6-20c-30.8,0-57.2,12.3-79.1,36.8c-22,24.5-32.9,56.1-32.9,94.7c0,37.7,9.7,68.2,29.2,91.3
+		c19.5,23.2,42.9,34.7,70.3,34.7c24.5,0,45.4-10.3,62.8-30.8c13.1,19.7,32.4,29.5,57.9,29.5c37.5,0,69.9-16.3,97.2-49
+		c27.3-32.6,41-72,41-118.1C488.05,152.9,465.75,103,420.95,61.8z M273.55,291.9c-11.3,15.2-24.8,22.9-40.5,22.9
+		c-10.7,0-19.3-5.6-25.8-16.8c-6.6-11.2-9.9-25.1-9.9-41.8c0-20.6,4.6-37.2,13.8-49.8s20.6-19,34.2-19c11.8,0,22.3,4.7,31.5,14.2
+		s13.8,22.1,13.8,37.9C290.55,259.2,284.85,276.6,273.55,291.9z"/></g><g><g><g><g><g><g><g><g><g><g><g><g><g><g><g/></g></g></g></g></g></g></g></g></g></g></g></g></g></g></svg></a></li><li class="icon"><a href="https://github.com/embarq" title="GitHub" class="icon-svg"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px" height="438.549px" viewbox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve"><g><path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z"/></g><g><g><g><g><g><g><g><g><g><g><g><g><g><g><g/></g></g></g></g></g></g></g></g></g></g></g></g></g></g></svg></a></li></ul></nav></header><div class="content"><div class="posts"><div class="post-teaser"><header><h1><a class="post-link" href="/post/migrate-from-jekyll/">Migrate from Jekyll</a></h1><p class="meta">October 10, 2015 &middot; 4 minute read &middot; Tags: <a href="/tags/hugo">hugo</a> , <a href="/tags/jekyll">jekyll</a> , <a href="/tags/migration">migration</a></p></header><div class="excerpt"><h2 id="move-static-content-to-static">Move static content to <code>static</code></h2><p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there. With Jekyll, something that looked like</p><p></p><br><a class="button" href="/post/migrate-from-jekyll/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/migrate-from-jekyll-copy/">Migrate from Jekyll</a></h1><p class="meta">October 10, 2015 &middot; 4 minute read &middot; Tags: <a href="/tags/hugo">hugo</a> , <a href="/tags/jekyll">jekyll</a> , <a href="/tags/migration">migration</a></p></header><div class="excerpt"><h2 id="move-static-content-to-static">Move static content to <code>static</code></h2><p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there. With Jekyll, something that looked like</p><p></p><br><a class="button" href="/post/migrate-from-jekyll-copy/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/go-is-for-lovers/">Go is for lovers</a></h1><p class="meta">September 17, 2015 &middot; 7 minute read</p></header><div class="excerpt">Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates. This document is a brief primer on using go templates.<br><a class="button" href="/post/go-is-for-lovers/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/go-is-for-lovers-copy/">Go is for lovers</a></h1><p class="meta">September 17, 2015 &middot; 7 minute read</p></header><div class="excerpt">Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates. This document is a brief primer on using go templates.<br><a class="button" href="/post/go-is-for-lovers-copy/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/hugo-is-for-lovers/">Hugo is for lovers</a></h1><p class="meta">August 3, 2015 &middot; 2 minute read &middot; Tags: <a href="/tags/hugo">Hugo</a></p></header><div class="excerpt"><h2 id="step-1-install-hugo">Step 1. Install Hugo</h2><p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the appropriate version for your os and architecture.</p><p>Save it somewhere specific as we will be using it in the next step.</p><p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p><p></p><br><a class="button" href="/post/hugo-is-for-lovers/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/hugo-is-for-lovers-copy/">Hugo is for lovers</a></h1><p class="meta">August 3, 2015 &middot; 2 minute read &middot; Tags: <a href="/tags/hugo">Hugo</a></p></header><div class="excerpt"><h2 id="step-1-install-hugo">Step 1. Install Hugo</h2><p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the appropriate version for your os and architecture.</p><p>Save it somewhere specific as we will be using it in the next step.</p><p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p><p></p><br><a class="button" href="/post/hugo-is-for-lovers-copy/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/creating-a-new-theme/">Creating a new theme</a></h1><p class="meta">June 24, 2015 &middot; 34 minute read</p></header><div class="excerpt">Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme. We&rsquo;ll start with creating a new site with a very basic template.<br><a class="button" href="/post/creating-a-new-theme/">Continue reading</a></div></div><div class="post-teaser"><header><h1><a class="post-link" href="/post/creating-a-new-theme-copy/">Creating a new theme</a></h1><p class="meta">June 24, 2015 &middot; 34 minute read</p></header><div class="excerpt">Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme. We&rsquo;ll start with creating a new site with a very basic template.<br><a class="button" href="/post/creating-a-new-theme-copy/">Continue reading</a></div></div></div><div class="pagination"></div></div><footer class="site-footer"><p class="text">&copy; 2018 - Released under the MIT license<br>Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p></footer></body></html>
