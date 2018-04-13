@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <title>Go is for lovers&middot; Embarq</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Igor Lee">
-	<meta name="description" content="Embarq&#39;s home page">
-	<meta name="keywords" content="javascript,web-development">
-	<meta name="generator" content="Hugo 0.36.1">
-
-  
-
-	<!--Favicon-->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-	<!-- RSS -->
-	
-<style>
-		html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,nav{display:block}a{background-color:transparent}h1{font-size:2em;margin:.67em 0}svg:not(:root){overflow:hidden}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJB9cme_xc.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJB9cme_xc.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJB9cme_xc.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJB9cme_xc.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJB9cme_xc.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJB9cme_xc.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local("Source Sans Pro Italic"),local("SourceSansPro-Italic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDJB9cme.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdh18S0xR41YDw.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdo18S0xR41YDw.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdg18S0xR41YDw.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdv18S0xR41YDw.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdj18S0xR41YDw.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18S0xR41YDw.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local("Source Sans Pro Bold Italic"),local("SourceSansPro-BoldItalic"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18S0xR41.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local("Source Sans Pro Regular"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhdu3cOWxy40.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxdu3cOWxy40.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxdu3cOWxy40.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBdu3cOWxy40.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBdu3cOWxy40.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}*{margin:0;padding:0;box-sizing:border-box}html{background:#fff}body{color:#383838;font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;font-size:1.25em;word-wrap:break-word}h1{font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;line-height:1.3;margin:.67em 0}h1 a{color:#383838}h1{font-size:2.5em}ul{line-height:1.5;margin-bottom:1em}ul{list-style-position:inside}a{color:#f55;text-decoration:none}.site-header{padding:5% 20%}@media (max-width:1000px){.site-header{padding:7.5% 12.5%}}@media (max-width:576px){.site-header{padding:5%}}.icon-svg svg{width:1em;height:100%}.icon-svg svg path{fill:#383838}header h1{margin:0}.site-header{padding-bottom:3%;padding-top:3%;background:#fff;border-bottom:1px solid rgba(0,0,0,.1);display:inline-block;float:left;width:100%}.site-header a{color:#383838}.site-header .site-title{float:left;font-weight:700;font-size:1em;line-height:1.5}.site-header .site-nav ul{margin:0;padding:0;list-style:none;line-height:1.5;float:right;text-align:right}.site-header .site-nav li{display:inline;float:left;margin-right:1em}.site-header .site-nav a{color:#383838}@media (max-width:576px){.site-header .site-nav ul{display:inline-block;float:left;padding-top:5%;text-align:left;width:100%}}
-	</style>
-	</head>
-
-<body>
-	<header class="site-header">
-	<div class="branding">
-		<a href="/">
-		
-		</a>
-		<h1 class="site-title">
-			<a href="/">Embarq</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
-			<li><a href="/about/"> About </a></li>
-
-			
-
-
-
-<li class="icon">
-	<a href="mailto:embarq.dev@gmail.com" title="Email" class="icon-svg">
-		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 490.2 490.2" style="enable-background:new 0 0 490.2 490.2;" xml:space="preserve"><g><path d="M420.95,61.8C376.25,20.6,320.65,0,254.25,0c-69.8,0-129.3,23.4-178.4,70.3s-73.7,105.2-73.7,175
+<!DOCTYPE html><html lang="en-us"><head><title>Go is for lovers&middot; Embarq</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Igor Lee"><meta name="description" content="Embarq&#39;s home page"><meta name="keywords" content="javascript,web-development"><meta name="generator" content="Hugo 0.36.1"/><!--Favicon--><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><!-- RSS --></head><body><header class="site-header"><div class="branding"><a href="/"></a><h1 class="site-title"><a href="/">Embarq</a></h1></div><nav class="site-nav"><ul><li><a href="/about/">About</a></li><li class="icon"><a href="mailto:embarq.dev@gmail.com" title="Email" class="icon-svg"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490.2 490.2" style="enable-background:new 0 0 490.2 490.2;" xml:space="preserve"><g><path d="M420.95,61.8C376.25,20.6,320.65,0,254.25,0c-69.8,0-129.3,23.4-178.4,70.3s-73.7,105.2-73.7,175
 		c0,66.9,23.4,124.4,70.1,172.6c46.9,48.2,109.9,72.3,189.2,72.3c47.8,0,94.7-9.8,140.7-29.5c15-6.4,22.3-23.6,16.2-38.7l0,0
 		c-6.3-15.6-24.1-22.8-39.6-16.2c-40,17.2-79.2,25.8-117.4,25.8c-60.8,0-107.9-18.5-141.3-55.6c-33.3-37-50-80.5-50-130.4
 		c0-54.2,17.9-99.4,53.6-135.7c35.6-36.2,79.5-54.4,131.5-54.4c47.9,0,88.4,14.9,121.4,44.7s49.5,67.3,49.5,112.5
@@ -50,24 +7,7 @@
 		c19.5,23.2,42.9,34.7,70.3,34.7c24.5,0,45.4-10.3,62.8-30.8c13.1,19.7,32.4,29.5,57.9,29.5c37.5,0,69.9-16.3,97.2-49
 		c27.3-32.6,41-72,41-118.1C488.05,152.9,465.75,103,420.95,61.8z M273.55,291.9c-11.3,15.2-24.8,22.9-40.5,22.9
 		c-10.7,0-19.3-5.6-25.8-16.8c-6.6-11.2-9.9-25.1-9.9-41.8c0-20.6,4.6-37.2,13.8-49.8s20.6-19,34.2-19c11.8,0,22.3,4.7,31.5,14.2
-		s13.8,22.1,13.8,37.9C290.55,259.2,284.85,276.6,273.55,291.9z"/></g><g><g><g><g><g><g><g><g><g><g><g><g><g><g><g/></g></g></g></g></g></g></g></g></g></g></g></g></g></g></svg>
-
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/embarq" title="GitHub" class="icon-svg">
-		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px" height="438.549px" viewbox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve"><g><path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		s13.8,22.1,13.8,37.9C290.55,259.2,284.85,276.6,273.55,291.9z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></a></li><li class="icon"><a href="https://github.com/embarq" title="GitHub" class="icon-svg"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="438.549px" height="438.549px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;" xml:space="preserve"><g><path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
 		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
 		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
 		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
@@ -86,331 +26,52 @@
 		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
 		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
 		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
-		C438.536,184.851,428.728,148.168,409.132,114.573z"/></g><g><g><g><g><g><g><g><g><g><g><g><g><g><g><g/></g></g></g></g></g></g></g></g></g></g></g></g></g></g></svg>
-
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		</ul>
-	</nav>
-</header>
-
-
-	<div class="content">
-	<article>
-		<header>
-			<h1 class="title">Go is for lovers</h1>
-			<p class="meta">
-	September 17, 2015 &middot; 7 minute read
-
-	
-		
-</p>
-
-		</header>
-
-		<section class="post-content">
-			
-
-<p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in go templates.</p>
-
-<p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>
-provide more details.</p>
-
-<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
-
-<p>Go templates provide an extremely simple template language. It adheres to the
-belief that only the most basic of logic belongs in the template or view layer.
-One consequence of this simplicity is that go templates parse very quickly.</p>
-
-<p>A unique characteristic of go templates is they are content aware. Variables and
-content will be sanitized depending on the context of where they are used. More
-details can be found in the <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>.</p>
-
-<h2 id="basic-syntax">Basic Syntax</h2>
-
-<p>Go lang templates are html files with the addition of variables and
-functions.</p>
-
-<p><strong>Go variables and functions are accessible within {{ }}</strong></p>
-
-<p>Accessing a predefined variable &ldquo;foo&rdquo;:</p>
-
-<pre><code>{{ foo }}
-</code></pre>
-
-<p><strong>Parameters are separated using spaces</strong></p>
-
-<p>Calling the add function with input of 1, 2:</p>
-
-<pre><code>{{ add 1 2 }}
-</code></pre>
-
-<p><strong>Methods and fields are accessed via dot notation</strong></p>
-
-<p>Accessing the Page Parameter &ldquo;bar&rdquo;</p>
-
-<pre><code>{{ .Params.bar }}
-</code></pre>
-
-<p><strong>Parentheses can be used to group items together</strong></p>
-
-<pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
-</code></pre>
-
-<h2 id="variables">Variables</h2>
-
-<p>Each go template has a struct (object) made available to it. In hugo each
-template is passed either a page or a node struct depending on which type of
-page you are rendering. More details are available on the
-<a href="/layout/variables">variables</a> page.</p>
-
-<p>A variable is accessed by referencing the variable name.</p>
-
-<pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
-</code></pre>
-
-<p>Variables can also be defined and referenced.</p>
-
-<pre><code>{{ $address := &quot;123 Main St.&quot;}}
+		C438.536,184.851,428.728,148.168,409.132,114.573z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></a></li></ul></nav></header><div class="content"><article><header><h1 class="title">Go is for lovers</h1><p class="meta">September 17, 2015 &middot; 7 minute read</p></header><section class="post-content"><p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</p><p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/&gt;">go docs</a> provide more details.</p><h2 id="introduction-to-go-templates">Introduction to Go Templates</h2><p>Go templates provide an extremely simple template language. It adheres to the belief that only the most basic of logic belongs in the template or view layer. One consequence of this simplicity is that go templates parse very quickly.</p><p>A unique characteristic of go templates is they are content aware. Variables and content will be sanitized depending on the context of where they are used. More details can be found in the <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>.</p><h2 id="basic-syntax">Basic Syntax</h2><p>Go lang templates are html files with the addition of variables and functions.</p><p><strong>Go variables and functions are accessible within {{ }}</strong></p><p>Accessing a predefined variable &ldquo;foo&rdquo;:</p><pre><code>{{ foo }}
+</code></pre><p><strong>Parameters are separated using spaces</strong></p><p>Calling the add function with input of 1, 2:</p><pre><code>{{ add 1 2 }}
+</code></pre><p><strong>Methods and fields are accessed via dot notation</strong></p><p>Accessing the Page Parameter &ldquo;bar&rdquo;</p><pre><code>{{ .Params.bar }}
+</code></pre><p><strong>Parentheses can be used to group items together</strong></p><pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
+</code></pre><h2 id="variables">Variables</h2><p>Each go template has a struct (object) made available to it. In hugo each template is passed either a page or a node struct depending on which type of page you are rendering. More details are available on the <a href="/layout/variables">variables</a> page.</p><p>A variable is accessed by referencing the variable name.</p><pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
+</code></pre><p>Variables can also be defined and referenced.</p><pre><code>{{ $address := &quot;123 Main St.&quot;}}
 {{ $address }}
-</code></pre>
-
-<h2 id="functions">Functions</h2>
-
-<p>Go template ship with a few functions which provide basic functionality. The go
-template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="/layout/functions">Hugo template
-functions</a> provide some additional functionality we believe
-are useful for building websites. Functions are called by using their name
-followed by the required parameters separated by spaces. Template
-functions cannot be added without recompiling hugo.</p>
-
-<p><strong>Example:</strong></p>
-
-<pre><code>{{ add 1 2 }}
-</code></pre>
-
-<h2 id="includes">Includes</h2>
-
-<p>When including another template you will pass to it the data it will be
-able to access. To pass along the current context please remember to
-include a trailing dot. The templates location will always be starting at
-the /layout/ directory within Hugo.</p>
-
-<p><strong>Example:</strong></p>
-
-<pre><code>{{ template &quot;chrome/header.html&quot; . }}
-</code></pre>
-
-<h2 id="logic">Logic</h2>
-
-<p>Go templates provide the most basic iteration and conditional logic.</p>
-
-<h3 id="iteration">Iteration</h3>
-
-<p>Just like in go, the go templates make heavy use of range to iterate over
-a map, array or slice. The following are different examples of how to use
-range.</p>
-
-<p><strong>Example 1: Using Context</strong></p>
-
-<pre><code>{{ range array }}
+</code></pre><h2 id="functions">Functions</h2><p>Go template ship with a few functions which provide basic functionality. The go template system also provides a mechanism for applications to extend the available functions with their own. <a href="/layout/functions">Hugo template functions</a> provide some additional functionality we believe are useful for building websites. Functions are called by using their name followed by the required parameters separated by spaces. Template functions cannot be added without recompiling hugo.</p><p><strong>Example:</strong></p><pre><code>{{ add 1 2 }}
+</code></pre><h2 id="includes">Includes</h2><p>When including another template you will pass to it the data it will be able to access. To pass along the current context please remember to include a trailing dot. The templates location will always be starting at the /layout/ directory within Hugo.</p><p><strong>Example:</strong></p><pre><code>{{ template &quot;chrome/header.html&quot; . }}
+</code></pre><h2 id="logic">Logic</h2><p>Go templates provide the most basic iteration and conditional logic.</p><h3 id="iteration">Iteration</h3><p>Just like in go, the go templates make heavy use of range to iterate over a map, array or slice. The following are different examples of how to use range.</p><p><strong>Example 1: Using Context</strong></p><pre><code>{{ range array }}
     {{ . }}
 {{ end }}
-</code></pre>
-
-<p><strong>Example 2: Declaring value variable name</strong></p>
-
-<pre><code>{{range $element := array}}
+</code></pre><p><strong>Example 2: Declaring value variable name</strong></p><pre><code>{{range $element := array}}
     {{ $element }}
 {{ end }}
-</code></pre>
-
-<p><strong>Example 2: Declaring key and value variable name</strong></p>
-
-<pre><code>{{range $index, $element := array}}
+</code></pre><p><strong>Example 2: Declaring key and value variable name</strong></p><pre><code>{{range $index, $element := array}}
     {{ $index }}
     {{ $element }}
 {{ end }}
-</code></pre>
-
-<h3 id="conditionals">Conditionals</h3>
-
-<p>If, else, with, or, &amp; and provide the framework for handling conditional
-logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p>
-
-<p>Go Templates treat the following values as false:</p>
-
-<ul>
-<li>false</li>
-<li>0</li>
-<li>any array, slice, map, or string of length zero</li>
-</ul>
-
-<p><strong>Example 1: If</strong></p>
-
-<pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
-</code></pre>
-
-<p><strong>Example 2: If -&gt; Else</strong></p>
-
-<pre><code>{{ if isset .Params &quot;alt&quot; }}
+</code></pre><h3 id="conditionals">Conditionals</h3><p>If, else, with, or, &amp; and provide the framework for handling conditional logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p><p>Go Templates treat the following values as false:</p><ul><li>false</li><li>0</li><li>any array, slice, map, or string of length zero</li></ul><p><strong>Example 1: If</strong></p><pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
+</code></pre><p><strong>Example 2: If -&gt; Else</strong></p><pre><code>{{ if isset .Params &quot;alt&quot; }}
     {{ index .Params &quot;alt&quot; }}
 {{else}}
     {{ index .Params &quot;caption&quot; }}
 {{ end }}
-</code></pre>
-
-<p><strong>Example 3: And &amp; Or</strong></p>
-
-<pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
-</code></pre>
-
-<p><strong>Example 4: With</strong></p>
-
-<p>An alternative way of writing &ldquo;if&rdquo; and then referencing the same value
-is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
-and skips the block if the variable is absent.</p>
-
-<p>The first example above could be simplified as:</p>
-
-<pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
-</code></pre>
-
-<p><strong>Example 5: If -&gt; Else If</strong></p>
-
-<pre><code>{{ if isset .Params &quot;alt&quot; }}
+</code></pre><p><strong>Example 3: And &amp; Or</strong></p><pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+</code></pre><p><strong>Example 4: With</strong></p><p>An alternative way of writing &ldquo;if&rdquo; and then referencing the same value is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope, and skips the block if the variable is absent.</p><p>The first example above could be simplified as:</p><pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
+</code></pre><p><strong>Example 5: If -&gt; Else If</strong></p><pre><code>{{ if isset .Params &quot;alt&quot; }}
     {{ index .Params &quot;alt&quot; }}
 {{ else if isset .Params &quot;caption&quot; }}
     {{ index .Params &quot;caption&quot; }}
 {{ end }}
-</code></pre>
-
-<h2 id="pipes">Pipes</h2>
-
-<p>One of the most powerful components of go templates is the ability to
-stack actions one after another. This is done by using pipes. Borrowed
-from unix pipes, the concept is simple, each pipeline&rsquo;s output becomes the
-input of the following pipe.</p>
-
-<p>Because of the very simple syntax of go templates, the pipe is essential
-to being able to chain together function calls. One limitation of the
-pipes is that they only can work with a single value and that value
-becomes the last parameter of the next pipeline.</p>
-
-<p>A few simple examples should help convey how to use the pipe.</p>
-
-<p><strong>Example 1 :</strong></p>
-
-<pre><code>{{ if eq 1 1 }} Same {{ end }}
-</code></pre>
-
-<p>is the same as</p>
-
-<pre><code>{{ eq 1 1 | if }} Same {{ end }}
-</code></pre>
-
-<p>It does look odd to place the if at the end, but it does provide a good
-illustration of how to use the pipes.</p>
-
-<p><strong>Example 2 :</strong></p>
-
-<pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
-</code></pre>
-
-<p>Access the page parameter called &ldquo;disqus_url&rdquo; and escape the HTML.</p>
-
-<p><strong>Example 3 :</strong></p>
-
-<pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+</code></pre><h2 id="pipes">Pipes</h2><p>One of the most powerful components of go templates is the ability to stack actions one after another. This is done by using pipes. Borrowed from unix pipes, the concept is simple, each pipeline&rsquo;s output becomes the input of the following pipe.</p><p>Because of the very simple syntax of go templates, the pipe is essential to being able to chain together function calls. One limitation of the pipes is that they only can work with a single value and that value becomes the last parameter of the next pipeline.</p><p>A few simple examples should help convey how to use the pipe.</p><p><strong>Example 1 :</strong></p><pre><code>{{ if eq 1 1 }} Same {{ end }}
+</code></pre><p>is the same as</p><pre><code>{{ eq 1 1 | if }} Same {{ end }}
+</code></pre><p>It does look odd to place the if at the end, but it does provide a good illustration of how to use the pipes.</p><p><strong>Example 2 :</strong></p><pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
+</code></pre><p>Access the page parameter called &ldquo;disqus_url&rdquo; and escape the HTML.</p><p><strong>Example 3 :</strong></p><pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
 Stuff Here
 {{ end }}
-</code></pre>
-
-<p>Could be rewritten as</p>
-
-<pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
+</code></pre><p>Could be rewritten as</p><pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
 Stuff Here
 {{ end }}
-</code></pre>
-
-<h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
-
-<p>The most easily overlooked concept to understand about go templates is that {{ . }}
-always refers to the current context. In the top level of your template this
-will be the data set made available to it. Inside of a iteration it will have
-the value of the current item. When inside of a loop the context has changed. .
-will no longer refer to the data available to the entire page. If you need to
-access this from within the loop you will likely want to set it to a variable
-instead of depending on the context.</p>
-
-<p><strong>Example:</strong></p>
-
-<pre><code>  {{ $title := .Site.Title }}
+</code></pre><h2 id="context-aka-the-dot">Context (aka. the dot)</h2><p>The most easily overlooked concept to understand about go templates is that {{ . }} always refers to the current context. In the top level of your template this will be the data set made available to it. Inside of a iteration it will have the value of the current item. When inside of a loop the context has changed. . will no longer refer to the data available to the entire page. If you need to access this from within the loop you will likely want to set it to a variable instead of depending on the context.</p><p><strong>Example:</strong></p><pre><code>  {{ $title := .Site.Title }}
   {{ range .Params.tags }}
     &lt;li&gt; &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
   {{ end }}
-</code></pre>
-
-<p>Notice how once we have entered the loop the value of {{ . }} has changed. We
-have defined a variable outside of the loop so we have access to it from within
-the loop.</p>
-
-<h1 id="hugo-parameters">Hugo Parameters</h1>
-
-<p>Hugo provides the option of passing values to the template language
-through the site configuration (for sitewide values), or through the meta
-data of each specific piece of content. You can define any values of any
-type (supported by your front matter/config format) and use them however
-you want to inside of your templates.</p>
-
-<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
-
-<p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
-
-<p>An example of this is used in this documentation site. Most of the pages
-benefit from having the table of contents provided. Sometimes the TOC just
-doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
-of some pages to turn off the TOC from being displayed.</p>
-
-<p>Here is the example front matter:</p>
-
-<pre><code>---
+</code></pre><p>Notice how once we have entered the loop the value of {{ . }} has changed. We have defined a variable outside of the loop so we have access to it from within the loop.</p><h1 id="hugo-parameters">Hugo Parameters</h1><p>Hugo provides the option of passing values to the template language through the site configuration (for sitewide values), or through the meta data of each specific piece of content. You can define any values of any type (supported by your front matter/config format) and use them however you want to inside of your templates.</p><h2 id="using-content-page-parameters">Using Content (page) Parameters</h2><p>In each piece of content you can provide variables to be used by the templates. This happens in the <a href="/content/front-matter">front matter</a>.</p><p>An example of this is used in this documentation site. Most of the pages benefit from having the table of contents provided. Sometimes the TOC just doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter of some pages to turn off the TOC from being displayed.</p><p>Here is the example front matter:</p><pre><code>---
 title: &quot;Permalinks&quot;
 date: &quot;2013-11-18&quot;
 aliases:
@@ -419,91 +80,26 @@ groups: [&quot;extras&quot;]
 groups_weight: 30
 notoc: true
 ---
-</code></pre>
-
-<p>Here is the corresponding code inside of the template:</p>
-
-<pre><code>  {{ if not .Params.notoc }}
+</code></pre><p>Here is the corresponding code inside of the template:</p><pre><code>  {{ if not .Params.notoc }}
     &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
     {{ .TableOfContents }}
     &lt;/div&gt;
   {{ end }}
-</code></pre>
-
-<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
-
-<p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
-parameters, which are values which will be available to you in chrome.</p>
-
-<p>For instance, you might declare:</p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">params<span class="p">:</span><span class="w">
+</code></pre><h2 id="using-site-config-parameters">Using Site (config) Parameters</h2><p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site parameters, which are values which will be available to you in chrome.</p><p>For instance, you might declare:</p><div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">params<span class="p">:</span><span class="w">
 </span><span class="w">  </span>CopyrightHTML<span class="p">:</span><span class="w"> </span><span class="s2">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span><span class="w">
 </span><span class="w">  </span>TwitterUser<span class="p">:</span><span class="w"> </span><span class="s2">&#34;spf13&#34;</span><span class="w">
-</span><span class="w">  </span>SidebarRecentLimit<span class="p">:</span><span class="w"> </span><span class="m">5</span></code></pre></div>
-<p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
-provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
-you would declare it to be HTML-safe, so that the HTML entity is not escaped
-again.  This would let you easily update just your top-level config file each
-January 1st, instead of hunting through your templates.</p>
-
-<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+</span><span class="w">  </span>SidebarRecentLimit<span class="p">:</span><span class="w"> </span><span class="m">5</span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given, you would declare it to be HTML-safe, so that the HTML entity is not escaped again. This would let you easily update just your top-level config file each January 1st, instead of hunting through your templates.</p><pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
 &lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
 &lt;/footer&gt;{{end}}
-</code></pre>
-
-<p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
-is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
-and skips the block if the variable is absent:</p>
-
-<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
+</code></pre><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope, and skips the block if the variable is absent:</p><pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
 &lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
 &lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
  alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
-</code></pre>
-
-<p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
-so, such as in this example:</p>
-
-<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+</code></pre><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do so, such as in this example:</p><pre><code>&lt;nav class=&quot;recent&quot;&gt;
   &lt;h1&gt;Recent Posts&lt;/h1&gt;
   &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
     &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
-</code></pre>
-
-
-			
-				<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "spf13" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-			
-		</section>
-	</article>
-	</div>
-
-	<footer class="site-footer">
-	<p class="text">&copy; 2018 - Released under the MIT license<br>Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p>
-</footer>
-
-
-</body>
-</html>
+</code></pre><div id="disqus_thread"></div><script>var disqus_config=function(){};!function(){if(-1==["localhost","127.0.0.1"].indexOf(window.location.hostname)){var e=document,t=e.createElement("script");t.async=!0,t.src="//spf13.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}else document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally."}()</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section></article></div><footer class="site-footer"><p class="text">&copy; 2018 - Released under the MIT license<br>Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p></footer></body></html>
